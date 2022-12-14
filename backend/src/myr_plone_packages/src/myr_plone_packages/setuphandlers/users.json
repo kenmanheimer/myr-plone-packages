@@ -1,0 +1,19 @@
+{
+  "portal": [
+    {
+      "email": "ken.manheimer@gmail.com",
+      "properties": {
+        "fullname": "Myriadicity Website Plone Packages",
+        "location": "World"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member"
+      ],
+      "username": "myr-plone-packages"
+    }
+  ],
+    "team": [
+  ]
+}

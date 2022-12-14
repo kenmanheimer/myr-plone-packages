@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="myr_plone_packages"
+    >
+
+  <!-- Publish static files -->
+  <plone:static
+      directory="static"
+      name="myr_plone_packages"
+      type="plone"
+      />
+
+</configure>

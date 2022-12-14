@@ -1,0 +1,3 @@
+---
+hostname: 'myr-plone-packages'
+fqdn: '{{ hostname }}.localhost'

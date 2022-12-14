@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layers>
+  <layer interface="myr_plone_packages.interfaces.IMYR_PLONE_PACKAGESLayer"
+         name="myr_plone_packages"
+  />
+</layers>
