@@ -6,3 +6,4 @@ zope.testrunner
 # Add required add-ons
 # (Ideally add them in setup.py for myr_plone_packages)
 # collective.easyform
+eea.kitkat

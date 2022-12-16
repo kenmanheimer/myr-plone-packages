@@ -48,6 +48,7 @@ setup(
         "Plone",
         "prettyconf",
         "plone.api",
+        "eea.kitkat",
     ],
     extras_require={
         "test": [

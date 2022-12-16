@@ -24,9 +24,18 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "private": false,
-  "workspaces": [],
-  "addons": ["@eeacms/volto-accordion-block","@kitconcept/volto-blocks-grid","@kitconcept/volto-slider-block","@eeacms/volto-matomo"],
+  "addons": [
+    "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-depiction",
+    "@plonegovbr/volto-code-block",
+    "@kitconcept/volto-carousel-block",
+    "@eeacms/volto-pdf-block",
+    "@kitconcept/volto-button-block",
+    "@kitconcept/volto-slider-block",
+    "@eeacms/volto-block-toc",
+    "@adeweb-be/volto-leaflet-block",
+    "@kitconcept/volto-dsgvo-banner"
+  ],
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
@@ -128,24 +137,30 @@
     "node": "^14 || ^16"
   },
   "dependencies": {
-    "@plone/volto": "16.4.1",
-    "@eeacms/volto-accordion-block": "*",
-    "@kitconcept/volto-blocks-grid": "*",
+    "@adeweb-be/volto-leaflet-block": "*",
+    "@eeacms/volto-block-toc": "*",
+    "@eeacms/volto-depiction": "*",
+    "@eeacms/volto-eea-kitkat": "*",
+    "@eeacms/volto-pdf-block": "*",
+    "@kitconcept/volto-button-block": "*",
+    "@kitconcept/volto-carousel-block": "*",
+    "@kitconcept/volto-dsgvo-banner": "*",
     "@kitconcept/volto-slider-block": "*",
-    "@eeacms/volto-matomo": "*"
-},
+    "@plone/volto": "16.4.1",
+    "@plonegovbr/volto-code-block": "*"
+  },
   "devDependencies": {
-    "eslint-plugin-prettier": "3.1.3",
-    "jest-junit": "8.0.0",
-    "mrs-developer": "*",
-    "postcss": "8.4.13",
-    "prettier": "2.0.5",
     "@plone/scripts": "^2.1.5",
     "@storybook/addon-actions": "^6.3.0",
     "@storybook/addon-controls": "6.3.0",
     "@storybook/addon-essentials": "^6.3.0",
     "@storybook/addon-links": "^6.3.0",
     "@storybook/react": "^6.3.0",
+    "eslint-plugin-prettier": "3.1.3",
+    "jest-junit": "8.0.0",
+    "mrs-developer": "*",
+    "postcss": "8.4.13",
+    "prettier": "2.0.5",
     "razzle": "4.2.17",
     "stylelint": "14.0.1",
     "stylelint-config-idiomatic-order": "8.1.0",
