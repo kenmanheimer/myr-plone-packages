@@ -24,7 +24,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "# KLM notes: 'addons'": [
+  "__KLM notes: 'addons'": [
     "- Not using kitkat directly: https://github.com/eea/volto-eea-kitkat/issues/81",
     "- Non kitkat constituents up top, above @eeacms/volto-corsproxy",
     "- volto-block-style last, per https://github.com/eea/volto-block-style"
@@ -64,10 +64,8 @@
     "@eeacms/volto-tags-block",
     "@eeacms/volto-timeline-block",
     "@kitconcept/volto-blocks-grid",
-    "@eeacms/volto-matomo",
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-sentry-rancher-config",
-    "@eeacms/volto-slate-zotero",
     "@eeacms/volto-taxonomy",
     "@eeacms/volto-widget-dataprovenance",
     "@plone-collective/volto-sentry",
@@ -190,7 +188,6 @@
     "@eeacms/volto-group-block": "*",
     "@eeacms/volto-hero-block": "*",
     "@eeacms/volto-listing-block": "*",
-    "@eeacms/volto-matomo": "*",
     "@eeacms/volto-metadata-block": "*",
     "@eeacms/volto-object-widget": "*",
     "@eeacms/volto-pdf-block": "*",
@@ -200,7 +197,6 @@
     "@eeacms/volto-slate-footnote": "*",
     "@eeacms/volto-slate-label": "*",
     "@eeacms/volto-slate-metadata-mentions": "*",
-    "@eeacms/volto-slate-zotero": "*",
     "@eeacms/volto-statistic-block": "*",
     "@eeacms/volto-tabs-block": "*",
     "@eeacms/volto-tags-block": "*",
