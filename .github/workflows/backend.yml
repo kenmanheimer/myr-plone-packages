@@ -33,11 +33,11 @@ jobs:
           base_dir: 'backend'
           check: 'flake8'
 
-  # isort:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout codebase
-  #       uses: actions/checkout@v3
+  isort:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout codebase
+        uses: actions/checkout@v3
 
   #     - name: Run check
   #       uses: plone/code-analysis-action@v2
