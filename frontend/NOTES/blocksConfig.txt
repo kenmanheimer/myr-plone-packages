@@ -1,0 +1,1059 @@
+{
+  title: {
+    id: 'title',
+    title: 'Title',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M19 5L17 5 9 5 9 9 11 9 11 7 17 7 17 29 15 29 15 31 17 31 19 31 21 31 21 29 19 29 19 7 25 7 25 9 27 9 27 5z"/>'
+    },
+    group: 'text',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(title)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(title)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: [Function: restricted],
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 0
+  },
+  description: {
+    id: 'description',
+    title: 'Description',
+    icon: {
+      attributes: [Object],
+      content: '<path d="M0 2L30 2 30 0 0 0zM0 10L24 10 24 8 0 8z" transform="translate(3 13)"/>'
+    },
+    group: 'text',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(description)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(description)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: false,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 0,
+    className: 'documentDescription'
+  },
+  text: {
+    id: 'text',
+    title: 'Text',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M17 9L11 9 11 13 13 13 13 11 17 11 17 29 15 29 15 31 17 31 19 31 21 31 21 29 19 29 19 11 23 11 23 13 25 13 25 9 19 9z"/>'
+    },
+    group: 'text',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(text)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(text)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: true,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 0,
+    blockHasValue: [Function: blockHasValue],
+    tocEntry: [Function: tocEntry]
+  },
+  image: {
+    id: 'image',
+    title: 'Image',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M6,11 C5.449,11 5,11.448 5,12 L5,26 C5,26.552 5.449,27 6,27 L30,27 C30.551,27 31,26.552 31,26 L31,12 C31,11.448 30.551,11 30,11 L25.382,11 L23.382,7 L12.618,7 L10.618,11 L6,11 Z M30,29 L6,29 C4.346,29 3,27.654 3,26 L3,12 C3,10.346 4.346,9 6,9 L9.382,9 L11.382,5 L24.618,5 L26.618,9 L30,9 C31.654,9 33,10.346 33,12 L33,26 C33,27.654 31.654,29 30,29 L30,29 Z"/><path d="M18 13C15.243 13 13 15.243 13 18 13 20.757 15.243 23 18 23 20.757 23 23 20.757 23 18 23 15.243 20.757 13 18 13M18 25C14.14 25 11 21.859 11 18 11 14.141 14.14 11 18 11 21.86 11 25 14.141 25 18 25 21.859 21.86 25 18 25M29.5 14C29.5 14.828 28.828 15.5 28 15.5 27.172 15.5 26.5 14.828 26.5 14 26.5 13.172 27.172 12.5 28 12.5 28.828 12.5 29.5 13.172 29.5 14"/></g>'
+    },
+    group: 'media',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(image)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(image)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: false,
+    mostUsed: true,
+    sidebarTab: 1
+  },
+  leadimage: {
+    id: 'leadimage',
+    title: 'Lead Image Field',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M6,11 C5.449,11 5,11.448 5,12 L5,26 C5,26.552 5.449,27 6,27 L30,27 C30.551,27 31,26.552 31,26 L31,12 C31,11.448 30.551,11 30,11 L25.382,11 L23.382,7 L12.618,7 L10.618,11 L6,11 Z M30,29 L6,29 C4.346,29 3,27.654 3,26 L3,12 C3,10.346 4.346,9 6,9 L9.382,9 L11.382,5 L24.618,5 L26.618,9 L30,9 C31.654,9 33,10.346 33,12 L33,26 C33,27.654 31.654,29 30,29 L30,29 Z"/><path d="M18 13C15.243 13 13 15.243 13 18 13 20.757 15.243 23 18 23 20.757 23 23 20.757 23 18 23 15.243 20.757 13 18 13M18 25C14.14 25 11 21.859 11 18 11 14.141 14.14 11 18 11 21.86 11 25 14.141 25 18 25 21.859 21.86 25 18 25M29.5 14C29.5 14.828 28.828 15.5 28 15.5 27.172 15.5 26.5 14.828 26.5 14 26.5 13.172 27.172 12.5 28 12.5 28.828 12.5 29.5 13.172 29.5 14"/></g>'
+    },
+    group: 'media',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(leadimage)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(leadimage)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: [Function: restricted],
+    mostUsed: false,
+    sidebarTab: 1
+  },
+  listing: {
+    id: 'listing',
+    title: 'Listing',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M13 10L29 10 29 8 13 8zM13 14L33 14 33 12 13 12zM3 16L11 16 11 8 3 8 3 16zM5 14.001L9.001 14.001 9.001 10 5 10 5 14.001zM13 22L29 22 29 20 13 20zM13 26L33 26 33 24 13 24zM3 28L11 28 11 20 3 20 3 28zM5 26L9.001 26 9.001 22 5 22 5 26z"/></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(listing)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(listing)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    blockSchema: [Function: s],
+    restricted: false,
+    mostUsed: true,
+    sidebarTab: 1,
+    showLinkMore: false,
+    variations: [ [Object], [Object], [Object], [Object], [Object] ],
+    getAsyncData: [Function: getAsyncData],
+    schemaEnhancer: [Function: t],
+    extensions: { cardTemplates: [Array] }
+  },
+  video: {
+    id: 'video',
+    title: 'Video',
+    icon: {
+      attributes: [Object],
+      content: '<path d="M3 27L23 27 23 9 3 9 3 27zM5 24.999L21 24.999 21 11 5 11 5 24.999zM24.9996 15.4644L24.9996 20.5354 32.9996 25.8684 32.9996 10.1314 24.9996 15.4644zM27.0006 19.4654L27.0006 16.5354 30.9996 13.8684 30.9996 22.1314 27.0006 19.4654z" fill-rule="evenodd"/>'
+    },
+    group: 'media',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(video)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(video)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: true,
+    mostUsed: true,
+    sidebarTab: 1
+  },
+  toc: {
+    id: 'toc',
+    title: 'Table of Contents',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M11 11L33 11 33 8.999 11 8.999zM11 19L33 19 33 17 11 17zM11 27L33 27 33 25 11 25zM6 11.5C6.828 11.5 7.5 10.828 7.5 10 7.5 9.172 6.828 8.5 6 8.5 5.172 8.5 4.5 9.172 4.5 10 4.5 10.828 5.172 11.5 6 11.5M6 19.5C6.828 19.5 7.5 18.828 7.5 18 7.5 17.172 6.828 16.5 6 16.5 5.172 16.5 4.5 17.172 4.5 18 4.5 18.828 5.172 19.5 6 19.5M6 27.5C6.828 27.5 7.5 26.828 7.5 26 7.5 25.172 6.828 24.5 6 24.5 5.172 24.5 4.5 25.172 4.5 26 4.5 26.828 5.172 27.5 6 27.5"/></g>'
+    },
+    group: 'common',
+    view: [Function: WithIntl] {
+      displayName: 'injectIntl(Component)',
+      WrappedComponent: [Function (anonymous)]
+    },
+    edit: [class uI extends C],
+    schema: [Function (anonymous)],
+    variations: [ [Object], [Object] ],
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    extensions: [ [Object], [Object] ]
+  },
+  hero: {
+    id: 'hero',
+    title: 'Hero',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M3,29 L33,29 L33,6.999 L3,6.999 L3,29 Z M5,27 L31,27 L31,9 L5,9 L5,27 Z"/><path d="M12.293 22.707L7.586 18 12.293 13.293 13.707 14.707 10.414 18 13.707 21.293zM23.707 22.707L22.293 21.293 25.586 18 22.293 14.707 23.707 13.293 28.414 18zM16.949 24.316L15.052 23.683 19.052 11.683 20.949 12.316z"/></g>'
+    },
+    group: 'common',
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(hero)>',
+      _styleWrapped: true
+    },
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(hero)>',
+      _styleWrapped: true
+    },
+    blockHasOwnFocusManagement: true,
+    schemaEnhancer: [Function: IO],
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] }
+  },
+  maps: {
+    id: 'maps',
+    title: 'Maps',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M25.9739,17 C25.9029,14.907 25.6159,12.946 25.1479,11.19 C26.0619,10.693 26.9229,10.092 27.7269,9.404 C29.5489,11.464 30.7269,14.097 30.9489,17 L25.9739,17 Z M25.1479,24.81 C25.6159,23.054 25.9029,21.093 25.9739,19 L30.9489,19 C30.7269,21.903 29.5489,24.536 27.7269,26.595 C26.9229,25.908 26.0619,25.307 25.1479,24.81 L25.1479,24.81 Z M24.5239,26.766 C25.1429,27.127 25.7399,27.531 26.2979,27.997 C25.2539,28.865 24.0689,29.565 22.7879,30.075 C23.4559,29.15 24.0419,28.037 24.5239,26.766 L24.5239,26.766 Z M11.4769,26.766 C11.9579,28.037 12.5439,29.15 13.2129,30.075 C11.9309,29.565 10.7459,28.865 9.7019,27.997 C10.2599,27.531 10.8569,27.127 11.4769,26.766 L11.4769,26.766 Z M10.0259,19 C10.0969,21.093 10.3839,23.054 10.8519,24.81 C9.9379,25.307 9.0769,25.908 8.2729,26.595 C6.4519,24.536 5.2729,21.903 5.0509,19 L10.0259,19 Z M10.8519,11.19 C10.3839,12.946 10.0969,14.907 10.0259,17 L5.0509,17 C5.2729,14.097 6.4509,11.464 8.2729,9.404 C9.0769,10.092 9.9379,10.693 10.8519,11.19 L10.8519,11.19 Z M11.4769,9.234 C10.8569,8.873 10.2599,8.468 9.7019,8.003 C10.7459,7.135 11.9309,6.435 13.2129,5.925 C12.5439,6.85 11.9579,7.963 11.4769,9.234 L11.4769,9.234 Z M22.7869,5.925 C24.0689,6.435 25.2539,7.135 26.2989,8.003 C25.7399,8.468 25.1429,8.873 24.5239,9.234 C24.0419,7.963 23.4559,6.85 22.7869,5.925 L22.7869,5.925 Z M18.9999,10.951 L18.9999,5.21 C20.4139,5.777 21.7809,7.513 22.7289,10.106 C21.5449,10.568 20.2919,10.853 18.9999,10.951 L18.9999,10.951 Z M18.9999,17 L18.9999,12.951 C20.4919,12.853 21.9389,12.539 23.3089,12.021 C23.6739,13.499 23.9109,15.17 23.9749,17 L18.9999,17 Z M18.9999,23.049 L18.9999,19 L23.9749,19 C23.9109,20.83 23.6739,22.501 23.3089,23.979 C21.9389,23.461 20.4919,23.147 18.9999,23.049 L18.9999,23.049 Z M18.9999,25.049 C20.2919,25.147 21.5449,25.432 22.7289,25.894 C21.7809,28.487 20.4139,30.223 18.9999,30.79 L18.9999,25.049 Z M16.9999,25.049 L16.9999,30.79 C15.5869,30.223 14.2189,28.487 13.2709,25.894 C14.4549,25.432 15.7079,25.147 16.9999,25.049 L16.9999,25.049 Z M16.9999,19 L16.9999,23.049 C15.5079,23.147 14.0619,23.461 12.6909,23.979 C12.3259,22.501 12.0889,20.83 12.0249,19 L16.9999,19 Z M16.9999,12.951 L16.9999,17 L12.0249,17 C12.0889,15.17 12.3259,13.499 12.6909,12.021 C14.0619,12.539 15.5079,12.853 16.9999,12.951 L16.9999,12.951 Z M16.9999,10.951 C15.7079,10.853 14.4549,10.568 13.2709,10.106 C14.2189,7.513 15.5869,5.777 16.9999,5.21 L16.9999,10.951 Z M17.9999,3 C9.7289,3 2.9999,9.729 2.9999,18 C2.9999,26.271 9.7289,33 17.9999,33 C26.2719,33 32.9999,26.271 32.9999,18 C32.9999,9.729 26.2719,3 17.9999,3 L17.9999,3 Z"/>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(maps)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(maps)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: true,
+    mostUsed: false,
+    sidebarTab: 1
+  },
+  html: {
+    id: 'html',
+    title: 'HTML',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M3,29 L33,29 L33,6.999 L3,6.999 L3,29 Z M5,27 L31,27 L31,9 L5,9 L5,27 Z"/><path d="M12.293 22.707L7.586 18 12.293 13.293 13.707 14.707 10.414 18 13.707 21.293zM23.707 22.707L22.293 21.293 25.586 18 22.293 14.707 23.707 13.293 28.414 18zM16.949 24.316L15.052 23.683 19.052 11.683 20.949 12.316z"/></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(html)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(html)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: true,
+    mostUsed: false,
+    sidebarTab: 0
+  },
+  table: {
+    id: 'table',
+    title: 'Table',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M23,17 L29,17 L29,13 L23,13 L23,17 Z M23,29 L29,29 L29,25 L23,25 L23,29 Z M15,29 L21,29 L21,25 L15,25 L15,29 Z M7,29 L13,29 L13,25 L7,25 L7,29 Z M7,17 L13,17 L13,13 L7,13 L7,17 Z M7,11 L13,11 L13,7 L7,7 L7,11 Z M15,17 L21,17 L21,13 L15,13 L15,17 Z M7,23 L13,23 L13,19 L7,19 L7,23 Z M23,23 L29,23 L29,19 L23,19 L23,23 Z M15,23 L21,23 L21,19 L15,19 L15,23 Z M15,11 L21,11 L21,7 L15,7 L15,11 Z M23,11 L29,11 L29,7 L23,7 L23,11 Z M23,5 L13,5 L5,5 L5,13 L5,17 L5,25 L5,31 L13,31 L23,31 L31,31 L31,25 L31,17 L31,13 L31,5 L23,5 Z"/>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(table)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(table)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: true,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 1
+  },
+  search: {
+    id: 'search',
+    title: 'Search',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M7,16 C7,11.038 11.037,7 16,7 C20.963,7 25,11.038 25,16 C25,20.962 20.963,25 16,25 C11.037,25 7,20.962 7,16 L7,16 Z M32.707,31.293 L24.448,23.034 C26.039,21.125 27,18.673 27,16 C27,9.935 22.065,5 16,5 C9.935,5 5,9.935 5,16 C5,22.065 9.935,27 16,27 C18.673,27 21.125,26.039 23.034,24.448 L31.293,32.707 L32.707,31.293 Z"/>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(search)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(search)>',
+      _styleWrapped: true
+    },
+    blockSchema: [Function: nn],
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    variations: [ [Object], [Object], [Object] ],
+    extensions: { facetWidgets: [Object] }
+  },
+  slate: {
+    id: 'slate',
+    title: 'Text',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M17 9L11 9 11 13 13 13 13 11 17 11 17 29 15 29 15 31 17 31 19 31 21 31 21 29 19 29 19 11 23 11 23 13 25 13 25 9 19 9z"/>'
+    },
+    group: 'text',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(slate)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(slate)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Text block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: false,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 0,
+    security: { addPermission: [], view: [] },
+    blockHasValue: [Function: blockHasValue],
+    tocEntry: [Function: tocEntry]
+  },
+  detachedSlate: {
+    id: 'detachedSlate',
+    title: 'Detached Slate',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M17 9L11 9 11 13 13 13 13 11 17 11 17 29 15 29 15 31 17 31 19 31 21 31 21 29 19 29 19 11 23 11 23 13 25 13 25 9 19 9z"/>'
+    },
+    group: 'text',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(detachedSlate)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(detachedSlate)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Text block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: true,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 0,
+    security: { addPermission: [], view: [] },
+    blockHasValue: [Function: blockHasValue],
+    tocEntry: [Function: tocEntry]
+  },
+  slateTable: {
+    id: 'slateTable',
+    title: 'Table',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M23,17 L29,17 L29,13 L23,13 L23,17 Z M23,29 L29,29 L29,25 L23,25 L23,29 Z M15,29 L21,29 L21,25 L15,25 L15,29 Z M7,29 L13,29 L13,25 L7,25 L7,29 Z M7,17 L13,17 L13,13 L7,13 L7,17 Z M7,11 L13,11 L13,7 L7,7 L7,11 Z M15,17 L21,17 L21,13 L15,13 L15,17 Z M7,23 L13,23 L13,19 L7,19 L7,23 Z M23,23 L29,23 L29,19 L23,19 L23,23 Z M15,23 L21,23 L21,19 L15,19 L15,23 Z M15,11 L21,11 L21,7 L15,7 L15,11 Z M23,11 L29,11 L29,7 L23,7 L23,11 Z M23,5 L13,5 L5,5 L5,13 L5,17 L5,25 L5,31 L13,31 L23,31 L31,31 L31,25 L31,17 L31,13 L31,5 L23,5 Z"/>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(slateTable)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(slateTable)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] }
+  },
+  slateFootnotes: {
+    id: 'slateFootnotes',
+    title: 'Footnotes',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M27,30 C27,30.552 26.551,31 26,31 L9,31 L9,27 L10.278,27 C10.625,27.595 11.263,28 12,28 C13.103,28 14,27.103 14,26 C14,24.897 13.103,24 12,24 C11.263,24 10.625,24.405 10.278,25 L9,25 L9,19 L10.278,19 C10.625,19.595 11.263,20 12,20 C13.103,20 14,19.103 14,18 C14,16.897 13.103,16 12,16 C11.263,16 10.625,16.405 10.278,17 L9,17 L9,11 L10.278,11 C10.625,11.595 11.263,12 12,12 C13.103,12 14,11.103 14,10 C14,8.897 13.103,8 12,8 C11.263,8 10.625,8.405 10.278,9 L9,9 L9,5 L26,5 C26.551,5 27,5.448 27,6 L27,13 L29,13 L29,6 C29,4.346 27.654,3 26,3 L7,3 L7,33 L26,33 C27.654,33 29,31.654 29,30 L29,25 L27,25 L27,30 Z"/><path d="M20.5396,26.167 L19.4706,26.485 L19.8176,25.475 L28.0856,17.206 L28.7936,17.913 L20.5396,26.167 Z M30.5606,16.853 L29.1466,15.438 C28.5806,14.872 27.5916,14.872 27.0256,15.438 L18.0766,24.389 L16.3176,29.515 L21.5966,27.938 L30.5606,18.975 C31.1456,18.39 31.1456,17.438 30.5606,16.853 L30.5606,16.853 Z"/></g>'
+    },
+    group: 'text',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(slateFootnotes)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(slateFootnotes)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Footnotes block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: false,
+    mostUsed: false,
+    blockHasOwnFocusManagement: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] },
+    autoAdd: false
+  },
+  __grid: {
+    id: '__grid',
+    title: 'Grid',
+    icon: {
+      attributes: [Object],
+      content: '<g fill="none" fill-rule="evenodd"><rect width="96" height="96" fill="currentcolor" rx="3"/><g fill="#FFF" opacity=".9"><path d="M42 0H60V53H42zM63 0H81V53H63zM0 0H18V53H0zM21 0H39V53H21z" transform="translate(8 22)"/></g></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(__grid)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(__grid)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: true,
+    sidebarTab: 1,
+    blockHasOwnFocusManagement: true,
+    security: { addPermission: [], view: [] },
+    maxNumberOfColumns: 4,
+    gridAllowedBlocks: [ 'teaser', 'image', 'listing', 'slate', 'text' ]
+  },
+  teaserGrid: {
+    id: 'teaserGrid',
+    title: 'Teaser (Cards)',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M7,23 L23,23 L23,21 L7,21 L7,23 Z M7,19 L23,19 L23,7 L7,7 L7,19 Z M5,25 L25,25 L25,5 L5,5 L5,25 Z"/><path d="M13.021 11.979L15.843 16.681 17.91 14.357 20.183 17.578 21.817 16.422 18.09 11.143 16.157 13.319 12.979 8.021 8.132 16.503 9.868 17.497z"/><path d="M27 9L27 11 29 11 29 29 11 29 11 27 9 27 9 31 31 31 31 9z"/></g>'
+    },
+    group: 'teasers',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(teaserGrid)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(teaserGrid)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: true,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] },
+    gridAllowedBlocks: [ 'teaser' ]
+  },
+  imagesGrid: {
+    id: 'imagesGrid',
+    title: 'Images grid',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M7,23 L23,23 L23,21 L7,21 L7,23 Z M7,19 L23,19 L23,7 L7,7 L7,19 Z M5,25 L25,25 L25,5 L5,5 L5,25 Z"/><path d="M13.021 11.979L15.843 16.681 17.91 14.357 20.183 17.578 21.817 16.422 18.09 11.143 16.157 13.319 12.979 8.021 8.132 16.503 9.868 17.497z"/><path d="M27 9L27 11 29 11 29 29 11 29 11 27 9 27 9 31 31 31 31 9z"/></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(imagesGrid)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(imagesGrid)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: true,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] },
+    gridAllowedBlocks: [ 'image' ]
+  },
+  teaser: {
+    id: 'teaser',
+    title: 'Teaser',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M7,23 L23,23 L23,21 L7,21 L7,23 Z M7,19 L23,19 L23,7 L7,7 L7,19 Z M5,25 L25,25 L25,5 L5,5 L5,25 Z"/><path d="M13.021 11.979L15.843 16.681 17.91 14.357 20.183 17.578 21.817 16.422 18.09 11.143 16.157 13.319 12.979 8.021 8.132 16.503 9.868 17.497z"/><path d="M27 9L27 11 29 11 29 29 11 29 11 27 9 27 9 31 31 31 31 9z"/></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(teaser)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(teaser)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: true,
+    sidebarTab: 1,
+    variations: [ [Object] ],
+    schemaEnhancer: [Function: t]
+  },
+  accordion: {
+    id: 'accordion',
+    title: 'Accordion',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M11 11L33 11 33 8.999 11 8.999zM11 19L33 19 33 17 11 17zM11 27L33 27 33 25 11 25zM5.091 7L8 10 5.091 13 4 11.875 5.818 10 4 8.125zM5.091 15L8 18 5.091 21 4 19.875 5.818 18 4 16.125zM5.091 23L8 26 5.091 29 4 27.875 5.818 26 4 24.125z"/></g>'
+    },
+    group: 'common',
+    titleIcons: { closed: [Object], opened: [Object], size: '24px' },
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(accordion)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(accordion)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 1,
+    schema: {
+      title: 'Accordion block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    schemaEnhancer: [Function: GA],
+    options: { styled: 'styled', fluid: 'fluid' },
+    defaults: {},
+    security: { addPermission: [], view: [] }
+  },
+  dividerBlock: {
+    id: 'dividerBlock',
+    title: 'Divider',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M20,9 C20,7.897 19.103,7 18,7 C16.897,7 16,7.897 16,9 C16,10.103 16.897,11 18,11 C19.103,11 20,10.103 20,9 Z M14,9 C14,6.794 15.794,5 18,5 C20.206,5 22,6.794 22,9 C22,11.206 20.206,13 18,13 C15.794,13 14,11.206 14,9 Z M14,27 C14,24.794 15.794,23 18,23 C20.206,23 22,24.794 22,27 C22,29.206 20.206,31 18,31 C15.794,31 14,29.206 14,27 Z M20,27 C20,25.897 19.103,25 18,25 C16.897,25 16,25.897 16,27 C16,28.103 16.897,29 18,29 C19.103,29 20,28.103 20,27 Z M7,17 L29,17 L29,19 L7,19 L7,17 Z"/>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(dividerBlock)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(dividerBlock)>',
+      _styleWrapped: true
+    },
+    editSchema: [Function: FC],
+    schemaEnhancer: [Function: UC],
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] }
+  },
+  splitter: {
+    id: 'splitter',
+    title: 'Splitter',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M20,9 C20,7.897 19.103,7 18,7 C16.897,7 16,7.897 16,9 C16,10.103 16.897,11 18,11 C19.103,11 20,10.103 20,9 Z M14,9 C14,6.794 15.794,5 18,5 C20.206,5 22,6.794 22,9 C22,11.206 20.206,13 18,13 C15.794,13 14,11.206 14,9 Z M14,27 C14,24.794 15.794,23 18,23 C20.206,23 22,24.794 22,27 C22,29.206 20.206,31 18,31 C15.794,31 14,29.206 14,27 Z M20,27 C20,25.897 19.103,25 18,25 C16.897,25 16,25.897 16,27 C16,28.103 16.897,29 18,29 C19.103,29 20,28.103 20,27 Z M7,17 L29,17 L29,19 L7,19 L7,17 Z"/>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(splitter)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(splitter)>',
+      _styleWrapped: true
+    },
+    restricted: true,
+    mostUsed: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] },
+    styles: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  callToActionBlock: {
+    id: 'callToActionBlock',
+    title: 'Call to Action',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M18,5 C10.832,5 5,10.832 5,18 C5,25.168 10.832,31 18,31 C25.168,31 31,25.168 31,18 C31,10.832 25.168,5 18,5 M18,33 C9.729,33 3,26.271 3,18 C3,9.729 9.729,3 18,3 C26.271,3 33,9.729 33,18 C33,26.271 26.271,33 18,33"/><path d="M16.707 24.707L15.293 23.293 20.586 18 15.293 12.707 16.707 11.293 23.414 18z"/></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(callToActionBlock)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(callToActionBlock)>',
+      _styleWrapped: true
+    },
+    editSchema: [Function: tO],
+    schemaEnhancer: [Function: nO],
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] }
+  },
+  item: {
+    id: 'item',
+    title: 'Item',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M3,29 L33,29 L33,6.999 L3,6.999 L3,29 Z M5,27 L31,27 L31,9 L5,9 L5,27 Z"/><path d="M12.293 22.707L7.586 18 12.293 13.293 13.707 14.707 10.414 18 13.707 21.293zM23.707 22.707L22.293 21.293 25.586 18 22.293 14.707 23.707 13.293 28.414 18zM16.949 24.316L15.052 23.683 19.052 11.683 20.949 12.316z"/></g>'
+    },
+    group: 'common',
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(item)>',
+      _styleWrapped: true
+    },
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(item)>',
+      _styleWrapped: true
+    },
+    blockHasOwnFocusManagement: true,
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] },
+    schemaEnhancer: [Function: t]
+  },
+  metadata: {
+    id: 'metadata',
+    title: 'Metadata',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M25,18 C25,21.86 21.86,25 18,25 C14.14,25 11,21.86 11,18 L11,11 L25,11 L25,18 Z M23,9 L23,3 L21,3 L21,9 L15,9 L15,3 L13,3 L13,9 L9,9 L9,18 C9,22.624 12.507,26.441 17,26.941 L17,33 L19,33 L19,26.941 C23.493,26.441 27,22.624 27,18 L27,9 L23,9 Z"/><path d="M13 15L23 15 23 13 13 13z"/></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(metadata)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(metadata)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 0,
+    security: { addPermission: [], view: [] }
+  },
+  metadataSection: {
+    id: 'metadataSection',
+    title: 'Metadata Section',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M25,18 C25,21.86 21.86,25 18,25 C14.14,25 11,21.86 11,18 L11,11 L25,11 L25,18 Z M23,9 L23,3 L21,3 L21,9 L15,9 L15,3 L13,3 L13,9 L9,9 L9,18 C9,22.624 12.507,26.441 17,26.941 L17,33 L19,33 L19,26.941 C23.493,26.441 27,22.624 27,18 L27,9 L23,9 Z"/><path d="M13 15L23 15 23 13 13 13z"/></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(metadataSection)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(metadataSection)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Metadata section block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: false,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] },
+    variations: [ [Object], [Object] ]
+  },
+  group: {
+    id: 'group',
+    title: 'Section (Group)',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M29 31L31 31 31 29 29 29zM9 31L11 31 11 29 9 29zM25 31L27 31 27 29 25 29zM5 31L7 31 7 29 5 29zM5 11L7 11 7 9 5 9zM5 27L7 27 7 25 5 25zM5 7L7 7 7 5 5 5zM9 7L11 7 11 5 9 5zM25 7L27 7 27 5 25 5zM29 7L31 7 31 5 29 5zM29 27L31 27 31 25 29 25zM29 11L31 11 31 9 29 9zM21 31L23 31 23 29 21 29zM17 31L19 31 19 29 17 29zM13 31L15 31 15 29 13 29zM13 27L15 27 15 25 13 25zM21 27L23 27 23 25 21 25zM13 11L15 11 15 9 13 9zM13 7L15 7 15 5 13 5zM17 7L19 7 19 5 17 5zM21 7L23 7 23 5 21 5zM21 11L23 11 23 9 21 9zM29 17L29 19 29 21 23 21 21 21 19 21 17 21 15 21 13 21 7 21 7 19 7 17 7 15 13 15 15 15 17 15 19 15 21 15 23 15 29 15 29 17zM23 13L21 13 19 13 17 13 15 13 13 13 7 13 5 13 5 15 5 17 5 19 5 21 5 23 7 23 13 23 15 23 17 23 19 23 21 23 23 23 29 23 31 23 31 21 31 19 31 17 31 15 31 13 29 13 23 13z"/></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(group)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(group)>',
+      _styleWrapped: true
+    },
+    schema: {
+      title: 'Section (Group) settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    restricted: false,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    sidebarTab: 0,
+    security: { addPermission: [], view: [] }
+  },
+  columnsBlock: {
+    id: 'columnsBlock',
+    title: 'Columns',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" clip-rule="evenodd" d="M4 11V25H7V11H4ZM3 9C2.44772 9 2 9.44772 2 10V26C2 26.5523 2.44772 27 3 27H8C8.55228 27 9 26.5523 9 26V10C9 9.44772 8.55228 9 8 9H3ZM29 11V25H32V11H29ZM28 9C27.4477 9 27 9.44772 27 10V26C27 26.5523 27.4477 27 28 27H33C33.5523 27 34 26.5523 34 26V10C34 9.44772 33.5523 9 33 9H28ZM13 25V11H23V25H13ZM11 10C11 9.44772 11.4477 9 12 9H24C24.5523 9 25 9.44772 25 10V26C25 26.5523 24.5523 27 24 27H12C11.4477 27 11 26.5523 11 26V10Z"/>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(columnsBlock)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(columnsBlock)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: false,
+    blockHasOwnFocusManagement: true,
+    schema: {
+      title: 'Columns block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] },
+    gridSizes: {
+      full: [Object],
+      halfWidth: [Object],
+      twoThirds: [Object],
+      oneThird: [Object],
+      halfWidthBig: [Object],
+      oneThirdSmall: [Object],
+      oneQuarter: [Object],
+      oneFifth: [Object],
+      fourFifths: [Object],
+      twoFifths: [Object],
+      threeFifths: [Object]
+    },
+    variants: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    available_colors: [
+      '#EFEFEF', '#EB9694',
+      '#FAD0C3', '#FEF3BD',
+      '#C1E1C5', '#BEDADC',
+      '#C4DEF6', '#BED3F3',
+      '#D4C4FB'
+    ],
+    tocEntry: [Function: tocEntry],
+    cloneData: [Function: BP]
+  },
+  quote: {
+    id: 'quote',
+    title: 'Quote',
+    icon: {
+      attributes: [Object],
+      content: '<path d="M28 18L28 10 20 10 20 18 26 18C26 21.3137085 23.3137085 24 20 24L20 26C24.418278 26 28 22.418278 28 18L28 18zM26 12L26 16 22 16 22 12 26 12 26 12zM16 18L16 10 8 10 8 18 14 18C14 21.3137085 11.3137085 24 8 24L8 26C12.418278 26 16 22.418278 16 18L16 18zM14 12L14 16 10 16 10 12 14 12 14 12z" fill-rule="evenodd"/>'
+    },
+    group: 'text',
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(quote)>',
+      _styleWrapped: true
+    },
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(quote)>',
+      _styleWrapped: true
+    },
+    variations: [ [Object], [Object] ],
+    blockHasOwnFocusManagement: true,
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] }
+  },
+  statistic_block: {
+    id: 'statistic_block',
+    title: 'Statistic',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M7,29 L29,29 L29,7 L7,7 L7,29 Z M5,31 L31,31 L31,5 L5,5 L5,31 Z"/><path d="M16,23 C15,23 13,20.838 13,18 C13,15.243 15.243,13 18,13 C20.757,13 23,15.243 23,18 C23,20.838 21,23 20,23 L20,25 L26,25 L26,23 L23.311,23 C24.297,21.731 25,19.963 25,18 C25,14.14 21.86,11 18,11 C14.14,11 11,14.14 11,18 C11,19.963 11.703,21.731 12.689,23 L10,23 L10,25 L16,25 L16,23 Z"/></g>'
+    },
+    group: 'text',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(statistic_block)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(statistic_block)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] },
+    editSchema: {
+      title: 'Statistic block',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    }
+  },
+  tags_block: {
+    id: 'tags_block',
+    title: 'Tags',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M19.0596,7 C18.7926,7 18.5416,7.104 18.3536,7.292 L6.9346,18.691 C6.7446,18.881 6.6406,19.134 6.6416,19.403 C6.6426,19.672 6.7496,19.925 6.9416,20.113 L15.6346,28.626 C16.0126,28.996 16.6616,28.995 17.0356,28.624 L28.7016,17.143 C28.8916,16.956 28.9996,16.696 28.9996,16.43 L28.9996,8 C28.9996,7.448 28.5516,7 27.9996,7 L19.0596,7 Z M16.3336,30.911 C15.5446,30.911 14.7996,30.607 14.2356,30.056 L5.5426,21.542 C4.9656,20.977 4.6456,20.22 4.6416,19.412 C4.6386,18.604 4.9506,17.846 5.5216,17.275 L16.9396,5.877 C17.5056,5.312 18.2586,5 19.0596,5 L27.9996,5 C29.6546,5 30.9996,6.346 30.9996,8 L30.9996,16.43 C30.9996,17.229 30.6736,18.008 30.1046,18.568 L18.4386,30.05 C17.8736,30.605 17.1266,30.911 16.3336,30.911 L16.3336,30.911 Z"/><path d="M24,11 C23.449,11 23,11.448 23,12 C23,12.552 23.449,13 24,13 C24.551,13 25,12.552 25,12 C25,11.448 24.551,11 24,11 M24,15 C22.346,15 21,13.654 21,12 C21,10.346 22.346,9 24,9 C25.654,9 27,10.346 27,12 C27,13.654 25.654,15 24,15"/></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(tags_block)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(tags_block)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] }
+  },
+  timeline_block: {
+    id: 'timeline_block',
+    title: 'Timeline',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M20.9997,2.9997 L20.9997,7.0007 L15.0007,7.0007 L15.0007,2.9997 L8.9997,2.9997 L8.9997,7.0007 L5.0007,7.0007 L5.0007,12.9997 L5.0007,15.0007 L5.0007,30.9997 L30.9997,30.9997 L30.9997,15.0007 L30.9997,12.9997 L30.9997,7.0007 L26.9997,7.0007 L26.9997,2.9997 L20.9997,2.9997 Z M23.0007,7.9997 L23.0007,5.0007 L25.0007,5.0007 L25.0007,7.9997 L25.0007,8.9987 L23.0007,8.9987 L23.0007,7.9997 Z M10.9997,7.9997 L10.9997,5.0007 L12.9997,5.0007 L12.9997,7.9997 L12.9997,8.9987 L10.9997,8.9987 L10.9997,7.9997 Z M26.9997,10.9997 L26.9997,8.9987 L28.9997,8.9987 L28.9997,12.9997 L7.0007,12.9997 L7.0007,8.9987 L8.9997,8.9987 L8.9997,10.9997 L15.0007,10.9997 L15.0007,8.9987 L20.9997,8.9987 L20.9997,10.9997 L26.9997,10.9997 Z M7.0007,28.9997 L29.0017,28.9997 L29.0017,15.0007 L7.0007,15.0007 L7.0007,28.9997 Z"/><path d="M9 19L11 19 11 17 9 17zM13 19L15 19 15 17 13 17zM17 19L19 19 19 17 17 17zM21 19L23 19 23 17 21 17zM25 19L27 19 27 17 25 17zM9 23L11 23 11 21 9 21zM13 23L15 23 15 21 13 21zM17 23L19 23 19 21 17 21zM21 23L23 23 23 21 21 21zM25 23L27 23 27 21 25 21zM9 27L11 27 11 25 9 25zM13 27L15 27 15 25 13 25zM17 27L19 27 19 25 17 25zM21 27L23 27 23 25 21 25zM25 27L27 27 27 25 25 25z"/></g>'
+    },
+    group: 'common',
+    view: [Function: r] {
+      displayName: '<ViewBlockWithStyleWrapperFor(timeline_block)>',
+      _styleWrapped: true
+    },
+    edit: [Function: n] {
+      displayName: '<EditBlockWithStyleWrapperFor(timeline_block)>',
+      _styleWrapped: true
+    },
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] }
+  },
+  tabs_block: {
+    id: 'tabs_block',
+    title: 'Tabs',
+    icon: {
+      attributes: [Object],
+      content: '<path d="m465 81.433594v-21.433594c0-33.085938-26.914062-60-60-60h-345c-33.085938 0-60 26.914062-60 60v352c0 33.085938 26.914062 60 60 60h392c33.085938 0 60-26.914062 60-60v-272c0-28.617188-20.148438-52.609375-47-58.566406zm-40-21.433594v20h-90v-20c0-7.011719-1.21875-13.738281-3.441406-20h73.441406c11.027344 0 20 8.972656 20 20zm-150-20c11.027344 0 20 8.972656 20 20v20h-91v-20c0-7.011719-1.21875-13.738281-3.441406-20zm197 372c0 11.027344-8.972656 20-20 20h-392c-11.027344 0-20-8.972656-20-20v-352c0-11.027344 8.972656-20 20-20h84c11.027344 0 20 8.972656 20 20v60h288c11.027344 0 20 8.972656 20 20zm0 0"/>'
+    },
+    group: 'common',
+    edit: [Function: o_],
+    view: [Function: l_],
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] },
+    blockHasOwnFocusManagement: true,
+    schema: {
+      title: 'Tabs block settings',
+      fieldsets: [Array],
+      properties: [Object],
+      required: []
+    },
+    templates: {
+      default: [Object],
+      accordion: [Object],
+      'horizontal-responsive': [Object],
+      carousel: [Object],
+      carousel_vertical: [Object]
+    },
+    getBlocks: [Function: getBlocks]
+  },
+  imagecards: {
+    id: 'imagecards',
+    title: 'Image Cards',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M7,23 L23,23 L23,21 L7,21 L7,23 Z M7,19 L23,19 L23,7 L7,7 L7,19 Z M5,25 L25,25 L25,5 L5,5 L5,25 Z"/><path d="M13.021 11.979L15.843 16.681 17.91 14.357 20.183 17.578 21.817 16.422 18.09 11.143 16.157 13.319 12.979 8.021 8.132 16.503 9.868 17.497z"/><path d="M27 9L27 11 29 11 29 29 11 29 11 27 9 27 9 31 31 31 31 9z"/></g>'
+    },
+    group: 'common',
+    view: [Function: vL],
+    edit: [Function: SL],
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    blockRenderers: {
+      round_tiled: [Object],
+      carousel: [Object],
+      discreetCarousel: [Object],
+      cards_grid: [Object]
+    },
+    security: { addPermission: [], view: [] }
+  },
+  pdf_viewer: {
+    id: 'pdf_viewer',
+    title: 'PDF Viewer',
+    view: [Function: A],
+    edit: [Function: WithIntl] {
+      displayName: 'injectIntl(Connect(Component))',
+      WrappedComponent: [Function (anonymous)]
+    },
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M22.7875,30.075 C24.0565,28.319 25.0255,25.873 25.5515,23 L29.9975,23 C28.6495,26.222 26.0375,28.782 22.7875,30.075 L22.7875,30.075 Z M6.0035,23 L10.4485,23 C10.9745,25.873 11.9435,28.319 13.2125,30.075 C9.9625,28.782 7.3505,26.222 6.0035,23 L6.0035,23 Z M13.2125,5.925 C11.9435,7.681 10.9745,10.127 10.4485,13 L6.0025,13 C7.3505,9.778 9.9625,7.218 13.2125,5.925 L13.2125,5.925 Z M19.0005,21 L19.0005,15 L23.8345,15 C23.9395,15.951 24.0005,16.95 24.0005,18 C24.0005,19.05 23.9395,20.049 23.8345,21 L19.0005,21 Z M19.0005,30.79 L19.0005,23 L23.5275,23 C22.6995,27.191 20.8895,30.032 19.0005,30.79 L19.0005,30.79 Z M17.0005,23 L17.0005,30.79 C15.1105,30.032 13.3005,27.191 12.4725,23 L17.0005,23 Z M17.0005,5.21 L17.0005,13 L12.4725,13 C13.3005,8.81 15.1105,5.968 17.0005,5.21 L17.0005,5.21 Z M23.5275,13 L19.0005,13 L19.0005,5.21 C20.8895,5.968 22.6995,8.81 23.5275,13 L23.5275,13 Z M12.0005,18 C12.0005,16.95 12.0605,15.951 12.1655,15 L17.0005,15 L17.0005,21 L12.1655,21 C12.0605,20.049 12.0005,19.05 12.0005,18 L12.0005,18 Z M5.0005,18 C5.0005,16.966 5.1345,15.965 5.3635,15 L10.1555,15 C10.0545,15.967 10.0005,16.969 10.0005,18 C10.0005,19.031 10.0545,20.033 10.1555,21 L5.3635,21 C5.1345,20.035 5.0005,19.034 5.0005,18 L5.0005,18 Z M31.0005,18 C31.0005,19.034 30.8655,20.035 30.6365,21 L25.8445,21 C25.9455,20.033 26.0005,19.031 26.0005,18 C26.0005,16.969 25.9455,15.967 25.8445,15 L30.6365,15 C30.8655,15.965 31.0005,16.966 31.0005,18 L31.0005,18 Z M29.9975,13 L25.5515,13 C25.0255,10.127 24.0565,7.681 22.7875,5.925 C26.0375,7.218 28.6495,9.778 29.9975,13 L29.9975,13 Z M18.0005,3 C9.7285,3 3.0005,9.729 3.0005,18 C3.0005,26.272 9.7285,33 18.0005,33 C26.2715,33 33.0005,26.272 33.0005,18 C33.0005,9.729 26.2715,3 18.0005,3 L18.0005,3 Z"/>'
+    },
+    sidebarTab: 1,
+    group: 'common'
+  },
+  codeBlock: {
+    id: 'codeBlock',
+    title: 'Code Block',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M3,29 L33,29 L33,6.999 L3,6.999 L3,29 Z M5,27 L31,27 L31,9 L5,9 L5,27 Z"/><path d="M12.293 22.707L7.586 18 12.293 13.293 13.707 14.707 10.414 18 13.707 21.293zM23.707 22.707L22.293 21.293 25.586 18 22.293 14.707 23.707 13.293 28.414 18zM16.949 24.316L15.052 23.683 19.052 11.683 20.949 12.316z"/></g>'
+    },
+    group: 'text',
+    view: [Function (anonymous)],
+    edit: [Function (anonymous)],
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
+    blockHasOwnFocusManagement: true,
+    defaultLanguage: 'python',
+    defaultStyle: 'dark'
+  },
+  __button: {
+    id: '__button',
+    title: 'Button',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M18,5 C10.832,5 5,10.832 5,18 C5,25.168 10.832,31 18,31 C25.168,31 31,25.168 31,18 C31,10.832 25.168,5 18,5 M18,33 C9.729,33 3,26.271 3,18 C3,9.729 9.729,3 18,3 C26.271,3 33,9.729 33,18 C33,26.271 26.271,33 18,33"/><path d="M10 19L26 19 26 17 10 17zM10 15L26 15 26 13 10 13zM10 23L26 23 26 21 10 21z"/></g>'
+    },
+    group: 'common',
+    view: [Function: HI],
+    edit: [Function: ZI],
+    restricted: false,
+    mostUsed: true,
+    sidebarTab: 1
+  },
+  carousel: {
+    id: 'carousel',
+    title: 'Carousel',
+    group: 'common',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M7,28.4 L29,28.4 L29,7.6 L7,7.6 L7,28.4 Z M5,31 L31,31 L31,5 L5,5 L5,31 Z"/><path d="M15.012 13.037L18.781 19.633 21.917 16.497 25.219 20.625 26.781 19.375 22.083 13.503 19.219 16.367 14.988 8.963 9.126 19.515 10.874 20.485zM19.5 25C19.5 25.828 18.828 26.5 18 26.5 17.172 26.5 16.5 25.828 16.5 25 16.5 24.172 17.172 23.5 18 23.5 18.828 23.5 19.5 24.172 19.5 25L19.5 25zM23.5 25C23.5 25.828 22.828 26.5 22 26.5 21.172 26.5 20.5 25.828 20.5 25 20.5 24.172 21.172 23.5 22 23.5 22.828 23.5 23.5 24.172 23.5 25L23.5 25zM15.5 25C15.5 25.828 14.828 26.5 14 26.5 13.172 26.5 12.5 25.828 12.5 25 12.5 24.172 13.172 23.5 14 23.5 14.828 23.5 15.5 24.172 15.5 25L15.5 25z"/></g>'
+    },
+    view: [Function: fR],
+    edit: [Function: BR],
+    restricted: false,
+    mostUsed: true,
+    sidebarTab: 1,
+    security: { addPermission: [], view: [] }
+  },
+  slider: {
+    id: 'slider',
+    title: 'Slider',
+    group: 'common',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M7,28.4 L29,28.4 L29,7.6 L7,7.6 L7,28.4 Z M5,31 L31,31 L31,5 L5,5 L5,31 Z"/><path d="M15.012 13.037L18.781 19.633 21.917 16.497 25.219 20.625 26.781 19.375 22.083 13.503 19.219 16.367 14.988 8.963 9.126 19.515 10.874 20.485zM19.5 25C19.5 25.828 18.828 26.5 18 26.5 17.172 26.5 16.5 25.828 16.5 25 16.5 24.172 17.172 23.5 18 23.5 18.828 23.5 19.5 24.172 19.5 25L19.5 25zM23.5 25C23.5 25.828 22.828 26.5 22 26.5 21.172 26.5 20.5 25.828 20.5 25 20.5 24.172 21.172 23.5 22 23.5 22.828 23.5 23.5 24.172 23.5 25L23.5 25zM15.5 25C15.5 25.828 14.828 26.5 14 26.5 13.172 26.5 12.5 25.828 12.5 25 12.5 24.172 13.172 23.5 14 23.5 14.828 23.5 15.5 24.172 15.5 25L15.5 25z"/></g>'
+    },
+    view: [Function (anonymous)],
+    edit: [Function (anonymous)],
+    restricted: false,
+    mostUsed: true,
+    sidebarTab: 1
+  },
+  leafletMap: {
+    id: 'leafletMap',
+    title: 'Leaflet map',
+    icon: {
+      attributes: [Object],
+      content: '<path fill-rule="evenodd" d="M25.9739,17 C25.9029,14.907 25.6159,12.946 25.1479,11.19 C26.0619,10.693 26.9229,10.092 27.7269,9.404 C29.5489,11.464 30.7269,14.097 30.9489,17 L25.9739,17 Z M25.1479,24.81 C25.6159,23.054 25.9029,21.093 25.9739,19 L30.9489,19 C30.7269,21.903 29.5489,24.536 27.7269,26.595 C26.9229,25.908 26.0619,25.307 25.1479,24.81 L25.1479,24.81 Z M24.5239,26.766 C25.1429,27.127 25.7399,27.531 26.2979,27.997 C25.2539,28.865 24.0689,29.565 22.7879,30.075 C23.4559,29.15 24.0419,28.037 24.5239,26.766 L24.5239,26.766 Z M11.4769,26.766 C11.9579,28.037 12.5439,29.15 13.2129,30.075 C11.9309,29.565 10.7459,28.865 9.7019,27.997 C10.2599,27.531 10.8569,27.127 11.4769,26.766 L11.4769,26.766 Z M10.0259,19 C10.0969,21.093 10.3839,23.054 10.8519,24.81 C9.9379,25.307 9.0769,25.908 8.2729,26.595 C6.4519,24.536 5.2729,21.903 5.0509,19 L10.0259,19 Z M10.8519,11.19 C10.3839,12.946 10.0969,14.907 10.0259,17 L5.0509,17 C5.2729,14.097 6.4509,11.464 8.2729,9.404 C9.0769,10.092 9.9379,10.693 10.8519,11.19 L10.8519,11.19 Z M11.4769,9.234 C10.8569,8.873 10.2599,8.468 9.7019,8.003 C10.7459,7.135 11.9309,6.435 13.2129,5.925 C12.5439,6.85 11.9579,7.963 11.4769,9.234 L11.4769,9.234 Z M22.7869,5.925 C24.0689,6.435 25.2539,7.135 26.2989,8.003 C25.7399,8.468 25.1429,8.873 24.5239,9.234 C24.0419,7.963 23.4559,6.85 22.7869,5.925 L22.7869,5.925 Z M18.9999,10.951 L18.9999,5.21 C20.4139,5.777 21.7809,7.513 22.7289,10.106 C21.5449,10.568 20.2919,10.853 18.9999,10.951 L18.9999,10.951 Z M18.9999,17 L18.9999,12.951 C20.4919,12.853 21.9389,12.539 23.3089,12.021 C23.6739,13.499 23.9109,15.17 23.9749,17 L18.9999,17 Z M18.9999,23.049 L18.9999,19 L23.9749,19 C23.9109,20.83 23.6739,22.501 23.3089,23.979 C21.9389,23.461 20.4919,23.147 18.9999,23.049 L18.9999,23.049 Z M18.9999,25.049 C20.2919,25.147 21.5449,25.432 22.7289,25.894 C21.7809,28.487 20.4139,30.223 18.9999,30.79 L18.9999,25.049 Z M16.9999,25.049 L16.9999,30.79 C15.5869,30.223 14.2189,28.487 13.2709,25.894 C14.4549,25.432 15.7079,25.147 16.9999,25.049 L16.9999,25.049 Z M16.9999,19 L16.9999,23.049 C15.5079,23.147 14.0619,23.461 12.6909,23.979 C12.3259,22.501 12.0889,20.83 12.0249,19 L16.9999,19 Z M16.9999,12.951 L16.9999,17 L12.0249,17 C12.0889,15.17 12.3259,13.499 12.6909,12.021 C14.0619,12.539 15.5079,12.853 16.9999,12.951 L16.9999,12.951 Z M16.9999,10.951 C15.7079,10.853 14.4549,10.568 13.2709,10.106 C14.2189,7.513 15.5869,5.777 16.9999,5.21 L16.9999,10.951 Z M17.9999,3 C9.7289,3 2.9999,9.729 2.9999,18 C2.9999,26.271 9.7289,33 17.9999,33 C26.2719,33 32.9999,26.271 32.9999,18 C32.9999,9.729 26.2719,3 17.9999,3 L17.9999,3 Z"/>'
+    },
+    group: 'common',
+    view: [Function: c],
+    edit: [Function: b],
+    restricted: false,
+    mostUsed: false,
+    blockHasOwnFocusManagement: false,
+    sidebarTab: 1,
+    markerIcons: {
+      default: [Object],
+      parking: [Object],
+      danger: [Object],
+      info: [Object],
+      flag: [Object]
+    },
+    tilesLayerUrl: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    tilesLayerAttribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  },
+  dsgvoBanner: {
+    id: 'dsgvoBanner',
+    title: 'DSGVO Banner',
+    icon: {
+      attributes: [Object],
+      content: '<g fill-rule="evenodd"><path d="M18,5 C10.832,5 5,10.832 5,18 C5,25.168 10.832,31 18,31 C25.168,31 31,25.168 31,18 C31,10.832 25.168,5 18,5 M18,33 C9.729,33 3,26.271 3,18 C3,9.729 9.729,3 18,3 C26.271,3 33,9.729 33,18 C33,26.271 26.271,33 18,33"/><path d="M10 19L26 19 26 17 10 17zM10 15L26 15 26 13 10 13zM10 23L26 23 26 21 10 21z"/></g>'
+    },
+    group: 'common',
+    view: [Function (anonymous)],
+    edit: [Function (anonymous)],
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 0,
+    security: { addPermission: [], view: [] }
+  }
+}
